@@ -1,0 +1,53 @@
+# User-defined
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# TensorFlow
+*.h5
+*.keras
+saved_models/
+!saved_models/.gitkeep
+
+# Results
+results/
+!results/.gitkeep
+figures/
+!figures/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Large files
+*.zip
+*.tar
+*.gz
+*.rar
